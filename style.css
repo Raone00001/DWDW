@@ -1,0 +1,63 @@
+h1{
+
+    color:orange;
+
+}
+
+/*{
+    border:solid;
+    border-color:rgb(0, 44, 0);
+}*/
+
+.header{
+
+    display:flex;
+    justify-content:space-between;
+   /* border:solid;*/
+    border-color: blue;
+    text-decoration: blueviolet;
+    background-color: crimson;
+}
+
+.games{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    border: 2px solid #ffaabb;
+    margin-right: 20px;
+    margin-top:10%;
+
+    /*background-color: gold; */
+
+}
+
+.footer{
+
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25%;
+    background-color: green;
+
+}
+
+p{
+    font-size: 10px;
+    text-align:center;
+    font-variant-ligatures:indigo;
+
+}
+
+.one{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+body{
+
+    background-color: #707070;
+
+}
